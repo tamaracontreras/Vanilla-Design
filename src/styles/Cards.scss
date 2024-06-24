@@ -10,16 +10,19 @@
   .card {
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: $card-radius;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    width: 300px;
+    width: $card-width;
+    height: $card-heith;
   }
   
   .card-icon {
     font-size: 50px;
-    color: #007bff;
+    
+  
+    color:$btn-active-bg;
     margin-bottom: 10px;
   }
   

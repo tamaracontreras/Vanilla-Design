@@ -1,0 +1,18 @@
+@import '../styles/_variables'; 
+.header {
+    height: 44px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.contenedor{
+    width: 1117px;
+    height: 24px;
+}
+  
+  .header h6 {
+    margin: 0;
+    font-size: 16px;
+  }
+  

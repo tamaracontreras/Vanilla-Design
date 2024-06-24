@@ -6,10 +6,11 @@
     background-size: cover;
     background-position: center;
     height: $heith-img;
-    width: $width-img; /* Altura ajustable según tus necesidades */
+ /* Altura ajustable según tus necesidades */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: -60px;
   }
   
   .banner-content {
@@ -22,6 +23,7 @@
     font-size: $tittle-font-size;
     font-weight: $tittle-font-weith;
     line-height: $tittle-line-heith; 
+    text-align: center;
     /* Tamaño de fuente del título */
   }
   .banner-content p {
@@ -31,9 +33,14 @@
   }
 
   button{
-    width: 138px;
-    height: 50px;
-    border-radius: 30px;
+    width: $button-width;
+    height: $button-heigth;
+    font-weight:$button-weith ;
+    font-size: $button-sizeF;
+    border-radius:$button-radius;
     background-color: $btn-active-bg;
+    margin-top: 440px;
+    margin-left:645px;
+
 
   }

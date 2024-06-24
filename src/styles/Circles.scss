@@ -1,0 +1,23 @@
+@import '../styles/_variables'; 
+
+.circle {
+    background-color: #FF93F4;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .large-circle {
+    width: 490px;
+    height: 490px;
+    top: 400px;
+    left: 1354px;
+    
+  }
+  
+  .small-circle {
+    width: 152px;
+    height: 152px;
+    top: 1146px;
+    left: -76px;
+  }
+  
