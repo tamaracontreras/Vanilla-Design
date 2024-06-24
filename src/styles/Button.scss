@@ -9,6 +9,7 @@
     font-weight: $button-weith;
     border-radius: $button-radius;
     color:$text-color;
+    margin-top: 30px;
     cursor: pointer;
   
     &[aria-pressed="true"] {

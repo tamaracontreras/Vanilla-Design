@@ -7,7 +7,7 @@
 
 // Aquí puedes sobrescribir las variables de Bootstrap antes de importar los componentes
 // Ejemplo: $primary: #ff6347;
-
+$btn-active-bg:  #ff93f4;
 // Luego, importa los componentes de Bootstrap
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap-icons/font/bootstrap-icons";
@@ -24,3 +24,5 @@ body {
   
 }
 
+body .card-title {
+  color: $btn-active-bg; }
