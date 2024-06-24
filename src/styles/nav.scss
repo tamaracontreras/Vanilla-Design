@@ -1,0 +1,11 @@
+// src/assets/components/Header.scss
+@import '../styles/_variables'; 
+
+// Estilos específicos para el Header
+.navbar {
+    background-color: $btn-active-bg ;
+    height: $navbar-height;
+  padding: 0 20px;
+    // Otros estilos específicos
+  }
+  

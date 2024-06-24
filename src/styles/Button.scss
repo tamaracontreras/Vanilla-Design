@@ -1,0 +1,26 @@
+// Button.scss
+@import '../styles/_variables'; 
+.custom-button {
+    background-color: #007bff; // Color de fondo predeterminado
+    color: white; // Color del texto
+    border: none;
+    padding: 10px 20px;
+    font-size: $button-sizeF;
+    font-weight: $button-weith;
+    border-radius: $button-radius;
+    color:$text-color;
+    cursor: pointer;
+  
+    &[aria-pressed="true"] {
+      background-color: #ff93f4; // Color de fondo cuando el botón está activo
+    }
+  
+    &:hover {
+      background-color: #D4FF00; // Color de fondo cuando el botón está en estado hover
+    }
+  
+    &:focus {
+      outline: none; // Quitar el borde por defecto del foco
+    }
+  }
+  

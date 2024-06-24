@@ -1,0 +1,26 @@
+// src/styles/main.scss
+@import "@fontsource/open-sans";
+// Importa las variables y mixins de Bootstrap primero
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/_variables";
+@import "bootstrap/scss/mixins";
+
+// Aquí puedes sobrescribir las variables de Bootstrap antes de importar los componentes
+// Ejemplo: $primary: #ff6347;
+
+// Luego, importa los componentes de Bootstrap
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons";
+
+// Aquí puedes agregar tus propios estilos
+*{
+    padding: 0px;
+    margin: 0px;
+    max-width: 1440px;
+}
+body {
+  background-color: whitesmoke;
+  max-width: 1440px;
+  
+}
+
