@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react';
-import '../../styles/Button.scss'; // Asegúrate de que la ruta al archivo CSS sea correcta
+import React, { useState } from "react";
+import "../../styles/Button.scss"; // Asegúrate de que la ruta al archivo CSS sea correcta
 
 const Button = () => {
   const [isActive, setIsActive] = useState(false);
@@ -10,9 +10,9 @@ const Button = () => {
   };
 
   return (
-    <button 
-      type="button" 
-      className="custom-button" 
+    <button
+      type="button"
+      className="custom-button"
       aria-pressed={isActive}
       onClick={handleClick}
     >

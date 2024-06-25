@@ -1,11 +1,23 @@
 // src/assets/components/Header.scss
-@import '../styles/_variables'; 
-
+@import "../styles/_variables";
+$hover-color: #d4ff00;
 // Estilos específicos para el Header
 .navbar {
-    background-color: $btn-active-bg ;
-    height: $navbar-height;
-    padding: 0 20px;
-    // Otros estilos específicos
+  background-color: $btn-active-bg;
+  height: $navbar-height;
+  padding: 0 20px;
+}
+.navbar-nav a.nav-link.active {
+  position: relative;
+  &::after {
+    content: "";
+    border-bottom: 3px solid #d4ff00;
+    height: 30px;
+    width: 38px;
+    position: absolute;
+    right: 8px;
   }
-  
+}
+a.nav-link:hover {
+  color: #d4ff00;
+}
