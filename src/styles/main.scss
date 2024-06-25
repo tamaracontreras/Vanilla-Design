@@ -7,27 +7,29 @@
 
 // Aquí puedes sobrescribir las variables de Bootstrap antes de importar los componentes
 // Ejemplo: $primary: #ff6347;
-$btn-active-bg:  #ff93f4;
-$card-radius:20px;
+$btn-active-bg: #ff93f4;
+$card-radius: 20px;
 // Luego, importa los componentes de Bootstrap
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap-icons/font/bootstrap-icons";
 
 // Aquí puedes agregar tus propios estilos
-*{
-    padding: 0px;
-    margin: 0px;
-   box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 body {
   background-color: whitesmoke;
   width: 100vw;
   overflow-x: hidden;
-
-  
 }
-body .card{
-  border-radius:$card-radius ;
+body .card {
+  border-radius: $card-radius;
 }
 body .card-title {
-  color: $btn-active-bg; }
+  color: $btn-active-bg;
+}
+
+
+

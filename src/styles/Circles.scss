@@ -1,23 +1,21 @@
-@import '../styles/_variables'; 
+@import "../styles/_variables";
 
 .circle {
-    background-color: #FF93F4;
-    border-radius: 50%;
-    position: absolute;
-  }
-  
-  .large-circle {
-    width: 490px;
-    height: 490px;
-    top: 400px;
-    right: -285px;
-    
-  }
-  
-  .small-circle {
-    width: 152px;
-    height: 152px;
-    top: 1146px;
-    left: -76px;
-  }
-  
+  background-color: #ff93f4;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.large-circle {
+  width: 490px;
+  height: 490px;
+  top: 400px;
+  right: -285px;
+}
+
+.small-circle {
+  width: 152px;
+  height: 152px;
+  top: 1146px;
+  left: -76px;
+}

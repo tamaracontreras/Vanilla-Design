@@ -24,9 +24,12 @@ const Cards = () => {
   ];
 
   return (
+    <div className="container-lg">
     <div className="cards-container">
+
       {cardData.map((card) => (
-        <div key={card.id} className="card">
+        
+        <div key={card.id} className="card container-sm</div>">
           <svg
             width="99"
             height="98"
@@ -75,6 +78,7 @@ const Cards = () => {
           <p className="card-text">{card.text}</p>
         </div>
       ))}
+    </div>
     </div>
   );
 };

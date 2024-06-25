@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark px-5">
+          <div className="container-lg container-md container-sm">
       <a className="navbar-brand" href="#">
         <svg
           width="137"
@@ -62,6 +63,7 @@ const Nav = () => {
             </a>
           </li>
         </ul>
+      </div>
       </div>
     </nav>
   );
